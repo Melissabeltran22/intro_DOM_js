@@ -1,0 +1,35 @@
+Eventos --> JavaScript --> HTML
+
+HTML               JS
+Funciones  ---- Escuchador 
+
+
+USUARIO
+Accion a una aplicación
+
+
+Eventos Teclado:
+    - presione tecla o todo lo que tenga  que requerir un Teclado
+Eventos Puntero:
+    - click, doble click, movimiento del mouse, scroll (más versatilidad tanto html o JavaScript)
+Eventos de Navegador:
+    - carga de información, minimizar, maximizar, cargar info por primera vez
+
+Pasos para manipular el DOM
+1.Crear una funcion 
+
+.textContent para extraer contenidop de cualquier etiqueta de html. no aplica para los inputs
+. value si muestra el contenido es el que le da el texto al inputs
+quiero extraer el valor de un input , uso value (excepto tipo file)
+
+evento : onclick -- un click
+        ondblckick -- doble click
+
+Recordar: cuando una funcion se construye hay que llamarla 
+
+
+Reto: 
+- crear un generador de paleta de colores : 
+- crear tres secciones, cada una con un color diferente .
+- dentro de cada seccion, debe aparecer el color hexadecimal como texto .
+- crea un boton que cambie el color de las tres secciones con un único click.
